@@ -1,0 +1,81 @@
+@keyframes fadein {
+    100%  {opacity: 1;}
+    0%  {opacity: 0.3;}
+}
+.navbar {
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(58, 58, 158);
+    border-radius: 0px 0px 10px 10px;
+    padding-left: 50px;
+    display: block;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.navbar div{
+    display: inline-block;
+}
+.l1{
+    color: aliceblue;
+    text-decoration: none;
+}
+.l1 a:hover{
+    color: aliceblue;
+    text-decoration: none;
+}
+.nav{
+    margin:-6px;
+}
+.home{
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+body{
+    background-color: rgb(46, 37, 63);
+}
+.home:hover{
+    background-color:rgb(42, 42, 105) ;
+    animation: fadein 0.5s ease-in;
+}
+.login{
+    float: right;
+    font-size: 25px;
+}
+.login a{
+    text-decoration:none;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+#lbtn1:hover{
+    background-color:rgb(42, 42, 105) ;
+    animation: fadein 0.5s ease-in;
+    border-radius:15px ;
+}
+#lbtn2:hover{
+    background-color:rgb(42, 42, 105) ;
+    animation: fadein 0.5s ease-in;
+    border-radius: 15px;
+}
+#lbtn1 {
+    padding: 10px;
+}
+#lbtn2{
+    padding: 10px;
+}
+.nigger{
+    margin-left: 500px ;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -15px;
+    margin-bottom: -10px;
+    
+}
+.zdjecie{
+    padding: 0px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    margin-left:-10px;
+}
