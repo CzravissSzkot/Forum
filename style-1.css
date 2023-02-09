@@ -11,6 +11,8 @@
     display: block;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-width: 1px;
 }
 .navbar div{
     display: inline-block;
@@ -80,11 +82,15 @@ body{
     margin-left:-10px;
 }
 .menu{
-    height: 1000px;
-    background-color: blueviolet;
+    height: 880px;
+    background-color: rgb(109, 72, 209);
     width: 200px;
     text-decoration: none;
-    margin: -100px 0px 0px -10px;
+    margin: 10px 0px 0px 0px;
+    margin-left: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
 .men{
     list-style: NONE;
@@ -93,6 +99,7 @@ body{
     padding: 10px 20px 10px 20px;
     font-size: 30px;
     margin-left: -40px;
+    margin-top: -10px;
 }
 .forums{
     padding: 10px 20px 10px 20px;
@@ -113,7 +120,4 @@ body{
     height: 2px;
     background-color: black;
     margin-left: -40px;
-}
-.sun{
-    margin-top: 100px;
 }
