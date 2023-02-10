@@ -6,13 +6,15 @@
     font-size: 25px;
     padding: 10px;
     background-color: rgb(58, 58, 158);
-    border-radius: 0px 0px 10px 0px;
+    border-radius: 10px;
     padding-left: 50px;
     display: block;
     box-sizing: border-box;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-style: solid;
     border-width: 1px;
+    width: 90%;
+    margin-left: 10%;
 }
 .navbar div{
     display: inline-block;
@@ -35,7 +37,7 @@
     border-radius: 15px;
 }
 body{  
-    background-image: linear-gradient(rgb(43, 40, 77), rgb(49, 35, 61));
+    background-image: linear-gradient(rgb(40, 46, 77), rgb(56, 35, 61));
 }
 .home:hover{
     background-color:rgb(42, 42, 105) ;
@@ -70,7 +72,7 @@ body{
     padding: 10px;
 }
 .nigger{
-    margin-left: 500px ;
+    margin-left: 300px ;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: -15px;
@@ -98,7 +100,7 @@ body{
     border-style: solid;
     border-width: 1px;
     margin-right: 0px;
-    margin-top: 10px;
+    margin-top: -70px;
     position: absolute;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -126,6 +128,21 @@ body{
     font-size: 30px;
     margin-left: -40px;
 }
+.git{
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    margin-left: -40px;
+}
+.Patreon{
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    margin-left: -40px;
+}
+.Links{
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    margin-left: -40px;
+}
 .line{
     height: 2px;
     background-color: black;
@@ -134,12 +151,41 @@ body{
 .Chatbox{
     width: 700px;
     height: 850px;
-    background-color: aqua;
+    background-color: rgb(128, 78, 126);
     display: inline-block;
     margin-left: 600px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px pink;
 }
 .w:Hover{
     text-shadow: 2px 2px rgb(90, 90, 202);
+}
+.logo{
+    margin-left: -35px;
+    margin-bottom:30px ;
+}
+.zdjecie1{
+    margin-bottom: -6px;
+}
+.Notfications{
+    margin-left: 300px;
+    padding: 10px;
+}
+.Notfications:hover{
+    background-color:rgb(42, 42, 105) ;
+    border-radius: 15px;
+    animation: fadein 0.5s ease-in;
+}
+.subnotifs{
+    display: none;
+}
+.chat{
+    width: 680px;
+    height: 830px;
+    background-color: rgb(59, 57, 57);
+    box-shadow: 2px 2px 2px pink;
+    margin: 10px;
+    border-radius: 10px;
 }
