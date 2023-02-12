@@ -91,7 +91,7 @@ body{
     margin-left:-10px;
 }
 .menu{
-    height: 880px;
+    height: 100%;
     background-color: rgb(109, 72, 209);
     width: 200px;
     text-decoration: none;
@@ -108,40 +108,39 @@ body{
     list-style: NONE;
 }
 .search{
-    padding: 10px 20px 10px 20px;
+    padding: 20px;
     font-size: 30px;
     margin-left: -40px;
     margin-top: -10px;
 }
-.forums{
+.search{    
     padding: 10px 20px 10px 20px;
     font-size: 30px;
     margin-left: -40px;
+    position: relative;
+}
+.nigger1{
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    margin-left: -40px;
+}
+.forums{
+    a
 }
 .about{
-    padding: 10px 20px 10px 20px;
-    font-size: 30px;
-    margin-left: -40px;
+    a
 }
 .Misc{
-    padding: 10px 20px 10px 20px;
-    font-size: 30px;
-    margin-left: -40px;
+    a
 }
 .git{
-    padding: 10px 20px 10px 20px;
-    font-size: 30px;
-    margin-left: -40px;
+    a
 }
 .Patreon{
-    padding: 10px 20px 10px 20px;
-    font-size: 30px;
-    margin-left: -40px;
+    a
 }
 .Links{
-    padding: 10px 20px 10px 20px;
-    font-size: 30px;
-    margin-left: -40px;
+    a
 }
 .line{
     height: 2px;
@@ -187,5 +186,17 @@ body{
     background-color: rgb(59, 57, 57);
     box-shadow: 2px 2px 2px pink;
     margin: 10px;
+    position: relative;
+}
+.type{
+    background-color: black;
+    width: 678px;
+    height:50px;  
+    display: block;
+    margin-left: 1px;
+    position: absolute;
+    bottom:0px;
+}
+.kolo{
     border-radius: 10px;
 }
